@@ -1,0 +1,65 @@
+site_name: LeetCode Solutions
+site_url: https://example.com/
+plugins:
+ - search
+ - tags:
+    tags_file: tags.md
+theme: 
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to Dark Mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light-blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to Light Mode
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.footer
+    - header.autohide
+  icon:
+    tag:
+      easy: fontawesome/solid/face-smile
+      array: fontawesome/solid/layer-group
+      hashtable: fontawesome/solid/hashtag
+repo_url: https://github.com/kush2021/leetcode-solutions
+repo_name: kush2021/leetcode-solutions
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kush2021
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/kushpadalia/
+  tags:
+    easy: easy
+    array: array
+    hashtable: hashtable
+nav:
+  - Home: index.md
+  - Solutions:
+    - Two Sum: solutions/two-sum.md
