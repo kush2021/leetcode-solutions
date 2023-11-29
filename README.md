@@ -1,7 +1,28 @@
 # LeetCode Solutions
 
-This repository will contain code and explanations for LeetCode problems I solve. I plan on doing a problem a day. Currently, I'm working through solutions in C++ but I may consider delving into other programming languages into the future.
+This repository will contain a website to host detailed explanations for LeetCode solutions. The purpose of this website is to make coding easy and accessible for everyone.
 
-## C++ Configuration
+## Installation
 
-I will be following [Google's C++ Style Guide](https://google.github.io/styleguide/cppguide.html) where possible. As the code will be exact LeetCode solutions, they will not be executable on their own.
+There is a docker container hosted on [kush2021/leetcode-solutions](https://hub.docker.com/r/kush2021/leetcode-solutions) that contains the software necessary to run the website.
+First, pull the container.
+
+```
+docker pull kush2021/leetcode-solutions:latest
+```
+
+Next, run the container.
+
+```
+docker -d -p 8000:8000 --name leetcode-solutions --platform linux/amd64 leetcode-solutions:latest
+```
+
+The website will be available on [http://localhost:8000](http://localhost:8000)!
+
+## License
+
+This project is licensed under the MIT License.
+
+## Credits
+
+The inspiration for this project goes to [P.-Y. Chen](walkccc.me/LeetCode/). All of the work is my own, unless otherwise noted.
