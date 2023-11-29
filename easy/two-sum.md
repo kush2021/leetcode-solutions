@@ -2,13 +2,13 @@
 
 ## Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
-The naive approach to solving this problem is using a double loop to go through pairs of numbers in the array and find the desired values that add up to the target.
+The naive approach to solving this problem is find each pair of integers within `nums` and checking if they add up to `target`. Finding each pair of values requires a nested loop and will cost $O(n^2)$ in efficiency.
 
-However, this problem can be solved in one pass. When we are looping through the array, we know exactly which is the corresponding number for the current number we are on (by finding the difference between the target and the current value). If we keep track of the values already encountered, we can do a lookup to check if the corresponding value has been found. If not, we continue our loop.
+However, this problem can be solved in $O(n)$. When we are looping through the array, we know what the corresponding number is given the current value we are iterating on. In other words, given `nums[i]`, we know that the other number we are looking for is `target - nums[i]` (since both values must add up to `target`). If we keep track of the values already encountered (along with their indices), we can do a lookup to check if the corresponding value has been found. If not, we continue iterating.
 
 ## Approach
 <!-- Describe your approach to solving the problem. -->
-We should utilize a hash map to solve this problem. A hash map provides a constant-time lookup and lets us keep track of a second value, the index (which is what we will be returning). Loop through the array and for each value, find the complement value needed to add to the target. Check if the complement is in the hash map. If so, we can return the respective indices. Otherwise, we add the current number and its index to the hash map and continue looping.
+We need a data structure which can store pairs of values and has $O(1)$ lookup time. Therefore, a hash map can be utilized to solve this problem efficiently. Loop through the array. For each number check if the complement value (`target - nums[i]`) is in the map. If so, we can return the indices. Otherwise, add the current number and its index to the map and continue looping.
 
 ## Complexity
 
@@ -26,13 +26,13 @@ The space complexity is $O(n)$ because we have a hash map that will contain up t
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        std::unordered_map<int, int> found;
-        for (int i = 0; i < nums.size(); i++) {
-            auto it = found.find(target - nums[i]);
-            if (it == found.end()) found.insert({nums[i], i});
+        std::unordered_map<int, int> num_to_index;
+        for (unsigned short i = 0; i < nums.size(); i++) {
+            auto it = num_to_index.find(target - nums[i]);
+            if (it == num_to_index.end()) num_to_index.insert({nums[i], i});
             else return std::vector<int> {it -> second, i};
         }
-        return std::vector<int> {-1, -1};
+        throw;
     }
 };
 ```
