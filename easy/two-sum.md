@@ -2,7 +2,7 @@
 
 ## Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
-The naive approach to solving this problem is find each pair of integers within `nums` and checking if they add up to `target`. Finding each pair of values requires a nested loop and will cost $O(n^2)$ in efficiency.
+The naive approach to solving this problem is to find each pair of integers within `nums` and checking if they add up to `target`. Finding each pair of values requires a nested loop and will cost $O(n^2)$ in efficiency.
 
 However, this problem can be solved in $O(n)$. When we are looping through the array, we know what the corresponding number is given the current value we are iterating on. In other words, given `nums[i]`, we know that the other number we are looking for is `target - nums[i]` (since both values must add up to `target`). If we keep track of the values already encountered (along with their indices), we can do a lookup to check if the corresponding value has been found. If not, we continue iterating.
 
