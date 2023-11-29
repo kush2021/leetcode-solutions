@@ -1,5 +1,10 @@
 # C++ Optimal Solution - Two Sum
 
+## Problem Statement
+Given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+
 ## Intuition
 <!-- Describe your first thoughts on how to solve this problem. -->
 The naive approach to solving this problem is to find each pair of integers within `nums` and checking if they add up to `target`. Finding each pair of values requires a nested loop and will cost $O(n^2)$ in efficiency.
@@ -25,14 +30,14 @@ The space complexity is $O(n)$ because we have a hash map that will contain up t
 ```cpp
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        std::unordered_map<int, int> num_to_index;
-        for (unsigned short i = 0; i < nums.size(); i++) {
-            auto it = num_to_index.find(target - nums[i]);
-            if (it == num_to_index.end()) num_to_index.insert({nums[i], i});
-            else return std::vector<int> {it -> second, i};
-        }
-        throw;
-    }
+  vector<int> twoSum(vector<int>& nums, int target) {
+    std::unordered_map<int, int> numToIndex;
+      for (unsigned short i = 0; i < nums.size(); i++) {
+        auto it = numToIndex.find(target - nums[i]);
+        if (it == numToIndex.end()) numToIndex.insert({nums[i], i});
+        else return std::vector<int> {it -> second, i};
+      }
+    throw;
+  }
 };
 ```
