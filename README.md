@@ -14,7 +14,7 @@ docker pull kush2021/leetcode-solutions:latest
 Next, run the container.
 
 ```
-docker run -d -p 8000:8000 --name leetcode-solutions --platform linux/amd64 leetcode-solutions:latest
+docker run -d -p 8000:8000 --name leetcode-solutions --platform linux/amd64 kush2021/leetcode-solutions:latest
 ```
 
 The website will be available on [http://localhost:8000](http://localhost:8000)!
