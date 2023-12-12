@@ -11,6 +11,8 @@ extra:
     linkedlist: linkedlist
     math: math
     medium: medium
+    slidingwindow: slidingwindow
+    string: string
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 extra_javascript:
@@ -32,6 +34,7 @@ nav:
   - Solutions:
     - Two Sum: solutions/two-sum.md
     - Add Two Numbers: solutions/add-two-numbers.md
+    - Longest Substring Without Repeating Characters: solutions/longest-substring-without-repeating-characters.md
   - Tags: tags.md
 plugins:
  - search
@@ -54,6 +57,8 @@ theme:
       linkedlist: fontawesome/solid/link
       math: fontawesome/solid/calculator
       medium: fontawesome/solid/face-grin-beam-sweat
+      slidingwindow: fontawesome/solid/window-restore
+      string: fontawesome/solid/file-word
   name: material
   palette:
     - media: "(prefers-color-scheme: light)"
