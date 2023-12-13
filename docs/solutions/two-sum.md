@@ -1,8 +1,8 @@
 ---
 tags:
-  - easy
-  - array
-  - hashtable
+  - Array
+  - Easy
+  - Hash Table
 ---
 
 # Two Sum

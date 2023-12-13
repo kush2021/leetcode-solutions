@@ -1,9 +1,9 @@
 ---
 tags:
-  - hashtable
-  - medium
-  - slidingwindow
-  - string
+  - Hash Table
+  - Medium
+  - Sliding Window
+  - String
 ---
 
 # Longest Substring Without Repeating Characters

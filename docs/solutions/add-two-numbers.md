@@ -1,8 +1,8 @@
 ---
 tags:
-  - math
-  - medium
-  - linkedlist
+  - Math
+  - Medium
+  - Linked List
 ---
 
 # Add Two Numbers

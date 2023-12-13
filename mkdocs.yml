@@ -5,14 +5,17 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/kushpadalia/
   tags:
-    array: array
-    easy: easy
-    hashtable: hashtable
-    linkedlist: linkedlist
-    math: math
-    medium: medium
-    slidingwindow: slidingwindow
-    string: string
+    Array: array
+    Binary Search: binarysearch
+    Divide and Conquer: divideandconquer
+    Easy: easy
+    Hard: hard
+    Hash Table: hashtable
+    Linked List: linkedlist
+    Math: math
+    Medium: medium
+    Sliding Window: slidingwindow
+    String: string
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 extra_javascript:
@@ -35,6 +38,7 @@ nav:
     - Two Sum: solutions/two-sum.md
     - Add Two Numbers: solutions/add-two-numbers.md
     - Longest Substring Without Repeating Characters: solutions/longest-substring-without-repeating-characters.md
+    - Median of Two Sorted Arrays: solutions/median-of-two-sorted-arrays.md
   - Tags: tags.md
 plugins:
  - search
@@ -52,7 +56,10 @@ theme:
   icon:
     tag:
       array: fontawesome/solid/layer-group
+      binarysearch: fontawesome/solid/magnifying-glass
+      divideandconquer: fontawesome/solid/chess-king
       easy: fontawesome/solid/face-smile
+      hard: fontawesome/solid/face-sad-cry
       hashtable: fontawesome/solid/hashtag
       linkedlist: fontawesome/solid/link
       math: fontawesome/solid/calculator
