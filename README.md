@@ -25,4 +25,4 @@ This project is licensed under the MIT License.
 
 ## Credits
 
-The inspiration for this project goes to [P.-Y. Chen](walkccc.me/LeetCode/). All of the work is my own, unless otherwise noted.
+The inspiration for this project goes to [P.-Y. Chen](https://walkccc.me/LeetCode/). All of the work is my own unless otherwise noted.
