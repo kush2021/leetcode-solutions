@@ -8,6 +8,7 @@ extra:
     Array: array
     Binary Search: binarysearch
     Divide and Conquer: divideandconquer
+    Dynamic Programming: dynamicprogramming
     Easy: easy
     Hard: hard
     Hash Table: hashtable
@@ -39,6 +40,7 @@ nav:
     - Add Two Numbers: solutions/add-two-numbers.md
     - Longest Substring Without Repeating Characters: solutions/longest-substring-without-repeating-characters.md
     - Median of Two Sorted Arrays: solutions/median-of-two-sorted-arrays.md
+    - Longest Palindromic Substring: solutions/longest-palindromic-substring.md
   - Tags: tags.md
 plugins:
  - search
@@ -58,6 +60,7 @@ theme:
       array: fontawesome/solid/layer-group
       binarysearch: fontawesome/solid/magnifying-glass
       divideandconquer: fontawesome/solid/chess-king
+      dynamicprogramming: fontawesome/solid/table
       easy: fontawesome/solid/face-smile
       hard: fontawesome/solid/face-sad-cry
       hashtable: fontawesome/solid/hashtag
