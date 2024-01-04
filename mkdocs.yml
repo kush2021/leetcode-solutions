@@ -42,6 +42,7 @@ nav:
     - Median of Two Sorted Arrays: solutions/median-of-two-sorted-arrays.md
     - Longest Palindromic Substring: solutions/longest-palindromic-substring.md
     - Zigzag Conversion: solutions/zigzag-conversion.md
+    - Reverse Integer: solutions/reverse-integer.md
   - Tags: tags.md
 plugins:
  - search
