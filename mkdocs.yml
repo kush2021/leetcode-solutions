@@ -43,6 +43,7 @@ nav:
     - Longest Palindromic Substring: solutions/longest-palindromic-substring.md
     - Zigzag Conversion: solutions/zigzag-conversion.md
     - Reverse Integer: solutions/reverse-integer.md
+    - String to Integer: solutions/string-to-integer.md
   - Tags: tags.md
 plugins:
  - search
