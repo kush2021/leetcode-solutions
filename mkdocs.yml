@@ -15,6 +15,7 @@ extra:
     Linked List: linkedlist
     Math: math
     Medium: medium
+    Recursion: recursion
     Sliding Window: slidingwindow
     String: string
 extra_css:
@@ -45,6 +46,7 @@ nav:
       - Reverse Integer: solutions/reverse-integer.md
       - String to Integer: solutions/string-to-integer.md
       - Palindrome Number: solutions/palindrome-number.md
+      - Regular Expression Matching: solutions/regular-expression-matching.md
   - Tags: tags.md
 plugins:
   - search
@@ -71,6 +73,7 @@ theme:
       linkedlist: fontawesome/solid/link
       math: fontawesome/solid/calculator
       medium: fontawesome/solid/face-grin-beam-sweat
+      recursion: fontawesome/solid/repeat
       slidingwindow: fontawesome/solid/window-restore
       string: fontawesome/solid/file-word
   name: material
