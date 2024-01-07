@@ -10,6 +10,7 @@ extra:
     Divide and Conquer: divideandconquer
     Dynamic Programming: dynamicprogramming
     Easy: easy
+    Greedy: greedy
     Hard: hard
     Hash Table: hashtable
     Linked List: linkedlist
@@ -47,6 +48,7 @@ nav:
       - String to Integer: solutions/string-to-integer.md
       - Palindrome Number: solutions/palindrome-number.md
       - Regular Expression Matching: solutions/regular-expression-matching.md
+      - Container With Most Water: solutions/container-with-most-water.md
   - Tags: tags.md
 plugins:
   - search
@@ -68,6 +70,7 @@ theme:
       divideandconquer: fontawesome/solid/chess-king
       dynamicprogramming: fontawesome/solid/table
       easy: fontawesome/solid/face-smile
+      greedy: fontawesome/solid/sack-dollar
       hard: fontawesome/solid/face-sad-cry
       hashtable: fontawesome/solid/hashtag
       linkedlist: fontawesome/solid/link
