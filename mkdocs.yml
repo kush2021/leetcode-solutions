@@ -50,6 +50,7 @@ nav:
       - Regular Expression Matching: solutions/regular-expression-matching.md
       - Container With Most Water: solutions/container-with-most-water.md
       - Integer to Roman: solutions/integer-to-roman.md
+      - Roman to Integer: solutions/roman-to-integer.md
   - Tags: tags.md
 plugins:
   - search
