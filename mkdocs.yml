@@ -19,6 +19,7 @@ extra:
     Recursion: recursion
     Sliding Window: slidingwindow
     String: string
+    Trie: trie
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 extra_javascript:
@@ -51,6 +52,7 @@ nav:
       - Container With Most Water: solutions/container-with-most-water.md
       - Integer to Roman: solutions/integer-to-roman.md
       - Roman to Integer: solutions/roman-to-integer.md
+      - Longest Common Prefix: solutions/longest-common-prefix.md
   - Tags: tags.md
 plugins:
   - search
@@ -81,6 +83,7 @@ theme:
       recursion: fontawesome/solid/repeat
       slidingwindow: fontawesome/solid/window-restore
       string: fontawesome/solid/file-word
+      trie: fontawesome/solid/tree
   name: material
   palette:
     - media: "(prefers-color-scheme: light)"
