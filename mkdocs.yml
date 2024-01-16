@@ -18,8 +18,10 @@ extra:
     Medium: medium
     Recursion: recursion
     Sliding Window: slidingwindow
+    Sorting: sorting
     String: string
     Trie: trie
+    Two Pointers: twopointers
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 extra_javascript:
@@ -53,6 +55,7 @@ nav:
       - Integer to Roman: solutions/integer-to-roman.md
       - Roman to Integer: solutions/roman-to-integer.md
       - Longest Common Prefix: solutions/longest-common-prefix.md
+      - Three Sum: solutions/three-sum.md
   - Tags: tags.md
 plugins:
   - search
@@ -82,8 +85,10 @@ theme:
       medium: fontawesome/solid/face-grin-beam-sweat
       recursion: fontawesome/solid/repeat
       slidingwindow: fontawesome/solid/window-restore
+      sorting: fontawesome/solid/arrow-up-z-a
       string: fontawesome/solid/file-word
       trie: fontawesome/solid/tree
+      twopointers: fontawesome/solid/dice-two
   name: material
   palette:
     - media: "(prefers-color-scheme: light)"
