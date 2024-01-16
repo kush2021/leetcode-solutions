@@ -56,6 +56,7 @@ nav:
       - Roman to Integer: solutions/roman-to-integer.md
       - Longest Common Prefix: solutions/longest-common-prefix.md
       - Three Sum: solutions/three-sum.md
+      - Three Sum Closest: solutions/three-sum-closest.md
   - Tags: tags.md
 plugins:
   - search
