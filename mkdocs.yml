@@ -59,6 +59,7 @@ nav:
       - Three Sum: solutions/three-sum.md
       - Three Sum Closest: solutions/three-sum-closest.md
       - Letter Combinations of a Phone Number: solutions/letter-combinations-of-a-phone-number.md
+      - Four Sum: solutions/four-sum.md
   - Tags: tags.md
 plugins:
   - search
