@@ -60,6 +60,7 @@ nav:
       - Three Sum Closest: solutions/three-sum-closest.md
       - Letter Combinations of a Phone Number: solutions/letter-combinations-of-a-phone-number.md
       - Four Sum: solutions/four-sum.md
+      - Remove Nth Node From End of List: solutions/remove-nth-node-from-end-of-list.md
   - Tags: tags.md
 plugins:
   - search
