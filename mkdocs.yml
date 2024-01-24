@@ -63,6 +63,7 @@ nav:
       - Four Sum: solutions/four-sum.md
       - Remove Nth Node From End of List: solutions/remove-nth-node-from-end-of-list.md
       - Valid Parentheses: solutions/valid-parentheses.md
+      - Merge Two Sorted Lists: solutions/merge-two-sorted-lists.md
   - Tags: tags.md
 plugins:
   - search
