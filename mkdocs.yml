@@ -14,9 +14,11 @@ extra:
     Greedy: greedy
     Hard: hard
     Hash Table: hashtable
+    Heap: heap
     Linked List: linkedlist
     Math: math
     Medium: medium
+    Merge Sort: mergesort
     Recursion: recursion
     Sliding Window: slidingwindow
     Sorting: sorting
@@ -65,6 +67,7 @@ nav:
       - Valid Parentheses: solutions/valid-parentheses.md
       - Merge Two Sorted Lists: solutions/merge-two-sorted-lists.md
       - Generate Parentheses: solutions/generate-parentheses.md
+      - Merge K Sorted Lists: solutions/merge-k-sorted-lists.md
   - Tags: tags.md
 plugins:
   - search
@@ -90,9 +93,11 @@ theme:
       greedy: fontawesome/solid/sack-dollar
       hard: fontawesome/solid/face-sad-cry
       hashtable: fontawesome/solid/hashtag
+      heap: fontawesome/solid/people-line
       linkedlist: fontawesome/solid/link
       math: fontawesome/solid/calculator
       medium: fontawesome/solid/face-grin-beam-sweat
+      mergesort: fontawesome/solid/code-merge
       recursion: fontawesome/solid/repeat
       slidingwindow: fontawesome/solid/window-restore
       sorting: fontawesome/solid/arrow-up-z-a
