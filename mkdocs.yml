@@ -45,29 +45,30 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Solutions:
-      - Two Sum: solutions/two-sum.md
-      - Add Two Numbers: solutions/add-two-numbers.md
-      - Longest Substring Without Repeating Characters: solutions/longest-substring-without-repeating-characters.md
-      - Median of Two Sorted Arrays: solutions/median-of-two-sorted-arrays.md
-      - Longest Palindromic Substring: solutions/longest-palindromic-substring.md
-      - Zigzag Conversion: solutions/zigzag-conversion.md
-      - Reverse Integer: solutions/reverse-integer.md
-      - String to Integer: solutions/string-to-integer.md
-      - Palindrome Number: solutions/palindrome-number.md
-      - Regular Expression Matching: solutions/regular-expression-matching.md
-      - Container With Most Water: solutions/container-with-most-water.md
-      - Integer to Roman: solutions/integer-to-roman.md
-      - Roman to Integer: solutions/roman-to-integer.md
-      - Longest Common Prefix: solutions/longest-common-prefix.md
-      - Three Sum: solutions/three-sum.md
-      - Three Sum Closest: solutions/three-sum-closest.md
-      - Letter Combinations of a Phone Number: solutions/letter-combinations-of-a-phone-number.md
-      - Four Sum: solutions/four-sum.md
-      - Remove Nth Node From End of List: solutions/remove-nth-node-from-end-of-list.md
-      - Valid Parentheses: solutions/valid-parentheses.md
-      - Merge Two Sorted Lists: solutions/merge-two-sorted-lists.md
-      - Generate Parentheses: solutions/generate-parentheses.md
-      - Merge K Sorted Lists: solutions/merge-k-sorted-lists.md
+      - 1 - Two Sum: solutions/1-two-sum.md
+      - 2 - Add Two Numbers: solutions/2-add-two-numbers.md
+      - 3 - Longest Substring Without Repeating Characters: solutions/3-longest-substring-without-repeating-characters.md
+      - 4 - Median of Two Sorted Arrays: solutions/4-median-of-two-sorted-arrays.md
+      - 5 - Longest Palindromic Substring: solutions/5-longest-palindromic-substring.md
+      - 6 - Zigzag Conversion: solutions/6-zigzag-conversion.md
+      - 7 - Reverse Integer: solutions/7-reverse-integer.md
+      - 8 - String to Integer: solutions/8-string-to-integer.md
+      - 9 - Palindrome Number: solutions/9-palindrome-number.md
+      - 10 - Regular Expression Matching: solutions/10-regular-expression-matching.md
+      - 11 - Container With Most Water: solutions/11-container-with-most-water.md
+      - 12 - Integer to Roman: solutions/12-integer-to-roman.md
+      - 13 - Roman to Integer: solutions/13-roman-to-integer.md
+      - 14 - Longest Common Prefix: solutions/14-longest-common-prefix.md
+      - 15 - Three Sum: solutions/15-three-sum.md
+      - 16 - Three Sum Closest: solutions/16-three-sum-closest.md
+      - 17 - Letter Combinations of a Phone Number: solutions/17-letter-combinations-of-a-phone-number.md
+      - 18 - Four Sum: solutions/18-four-sum.md
+      - 19 - Remove Nth Node From End of List: solutions/19-remove-nth-node-from-end-of-list.md
+      - 20 - Valid Parentheses: solutions/20-valid-parentheses.md
+      - 21 - Merge Two Sorted Lists: solutions/21-merge-two-sorted-lists.md
+      - 22 - Generate Parentheses: solutions/22-generate-parentheses.md
+      - 23 - Merge K Sorted Lists: solutions/23-merge-k-sorted-lists.md
+      - 24 - Swap Nodes in Pairs: solutions/24-swap-nodes-in-pairs.md
   - Tags: tags.md
 plugins:
   - search
