@@ -69,6 +69,7 @@ nav:
       - 22 - Generate Parentheses: solutions/22-generate-parentheses.md
       - 23 - Merge K Sorted Lists: solutions/23-merge-k-sorted-lists.md
       - 24 - Swap Nodes in Pairs: solutions/24-swap-nodes-in-pairs.md
+      - 25 - Reverse Nodes in K-Group: solutions/25-reverse-nodes-in-k-group.md
   - Tags: tags.md
 plugins:
   - search
