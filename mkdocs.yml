@@ -71,6 +71,7 @@ nav:
       - 24 - Swap Nodes in Pairs: solutions/24-swap-nodes-in-pairs.md
       - 25 - Reverse Nodes in K-Group: solutions/25-reverse-nodes-in-k-group.md
       - 26 - Remove Duplicates From Sorted Array: solutions/26-remove-duplicates-from-sorted-array.md
+      - 27 - Remove Element: solutions/27-remove-element.md
   - Tags: tags.md
 plugins:
   - search

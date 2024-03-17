@@ -2,7 +2,7 @@
 tags:
   - Array
   - Easy
-  - Two Pointer
+  - Two Pointers
 ---
 
 # Remove Duplicates From Sorted Array
