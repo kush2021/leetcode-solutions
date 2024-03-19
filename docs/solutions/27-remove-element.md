@@ -19,13 +19,13 @@ Iterate through the array. Whenever an element not equal to `val` is encountered
 
 ## Complexity
 
-### Space Complexity
-
-The space complexity is $O(1)$ because we are not using any extra space for larger input sizes.
-
 ### Time Complexity
 
 The time complexity is $O(n)$ because we need to iterate through the input array.
+
+### Space Complexity
+
+The space complexity is $O(1)$ because we are not using any extra space for larger input sizes.
 
 ## Code
 

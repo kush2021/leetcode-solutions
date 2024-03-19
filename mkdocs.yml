@@ -24,6 +24,7 @@ extra:
     Sorting: sorting
     Stack: stack
     String: string
+    String Matching: stringmatching
     Trie: trie
     Two Pointers: twopointers
 extra_css:
@@ -72,6 +73,7 @@ nav:
       - 25 - Reverse Nodes in K-Group: solutions/25-reverse-nodes-in-k-group.md
       - 26 - Remove Duplicates From Sorted Array: solutions/26-remove-duplicates-from-sorted-array.md
       - 27 - Remove Element: solutions/27-remove-element.md
+      - 28 - Find the Index of the First Occurrence in a String: solutions/28-find-the-index-of-the-first-occurrence-in-a-string.md
   - Tags: tags.md
 plugins:
   - search
@@ -107,6 +109,7 @@ theme:
       sorting: fontawesome/solid/arrow-up-z-a
       stack: fontawesome/solid/cubes-stacked
       string: fontawesome/solid/file-word
+      stringmatching: fontawesome/solid/equals
       trie: fontawesome/solid/tree
       twopointers: fontawesome/solid/dice-two
   name: material

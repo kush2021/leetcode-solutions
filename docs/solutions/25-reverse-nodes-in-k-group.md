@@ -27,13 +27,13 @@ Return `dummy.next`.
 
 ## Complexity
 
-### Space Complexity
-
-The space complexity is $O(1)$ because we are not using any space relative to the input size.
-
 ### Time Complexity
 
 The time complexity is $O(n)$ because we must iterate through the entire list to perform the algorithm.
+
+### Space Complexity
+
+The space complexity is $O(1)$ because we are not using any space relative to the input size.
 
 ## Code
 

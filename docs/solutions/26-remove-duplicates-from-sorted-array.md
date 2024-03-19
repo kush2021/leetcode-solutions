@@ -25,13 +25,13 @@ Finally, we'll return the count of unique integers identified.
 
 ## Complexity
 
-### Space Complexity
-
-Since our memory usage is not dependent on the input array, our space complexity is $O(1)$.
-
 ### Time Complexity
 
 We need to traverse the input array once to remove all the duplicates. This gives us a time complexity of $O(n)$.
+
+### Space Complexity
+
+Since our memory usage is not dependent on the input array, our space complexity is $O(1)$.
 
 ## Code
 
