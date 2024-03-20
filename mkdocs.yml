@@ -8,6 +8,7 @@ extra:
     Array: array
     Backtracking: backtracking
     Binary Search: binarysearch
+    Bit Manipulation: bitmanipulation
     Divide and Conquer: divideandconquer
     Dynamic Programming: dynamicprogramming
     Easy: easy
@@ -74,6 +75,7 @@ nav:
       - 26 - Remove Duplicates From Sorted Array: solutions/26-remove-duplicates-from-sorted-array.md
       - 27 - Remove Element: solutions/27-remove-element.md
       - 28 - Find the Index of the First Occurrence in a String: solutions/28-find-the-index-of-the-first-occurrence-in-a-string.md
+      - 29 - Divide Two Integers: solutions/29-divide-two-integers.md
   - Tags: tags.md
 plugins:
   - search
@@ -93,6 +95,7 @@ theme:
       array: fontawesome/solid/layer-group
       backtracking: fontawesome/solid/backward
       binarysearch: fontawesome/solid/magnifying-glass
+      bitmanipulation: fontawesome/solid/microchip
       divideandconquer: fontawesome/solid/chess-king
       dynamicprogramming: fontawesome/solid/table
       easy: fontawesome/solid/face-smile
