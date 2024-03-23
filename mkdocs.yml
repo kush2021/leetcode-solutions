@@ -84,7 +84,7 @@ plugins:
 repo_url: https://github.com/kush2021/leetcode-solutions
 repo_name: kush2021/leetcode-solutions
 site_name: LeetCode Solutions
-site_url: https://example.com/
+site_url: https://kush2021.github.io/leetcode-solutions
 theme:
   features:
     - content.code.copy
